@@ -4,7 +4,7 @@ import './recommendations.css'
 const Recommendations = () => {
   return (
     <div>
-      
+      Recommendations
     </div>
   )
 }
