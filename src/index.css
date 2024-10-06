@@ -15,8 +15,8 @@
     --color-bg-variant: #EAD8C0;
     --color-primary: #A79277;
     --color-primary-variant: #D1BB9E;
-    --color-white: #322C2B;
-    --color-light: #322C2B;
+    --color-black: #322C2B;
+    --color-light: #6C5F5B;
 
     --transition: all 400ms ease;;
 
@@ -36,7 +36,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-black);
     line-height: 1.7;
     /* background-image: url(../src/assets/bg-texture.png); */
 }
@@ -60,10 +60,11 @@ h1 {
 }
 
 section {
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2, 
+section > h5 {
     text-align: center;
     color: var(--color-light);
 }
@@ -83,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .btn {
@@ -98,7 +99,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: var(--color-black);
     color: var(--color-bg);
     border-color: transparent;
 }
