@@ -3,9 +3,9 @@ import './recommendations.css'
 
 const Recommendations = () => {
   return (
-    <div>
-      
-    </div>
+    <section id='recommendations'>
+      Recommendations
+    </section>
   )
 }
 

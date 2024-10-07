@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 1rem;
     overflow: hidden;
 }
 
@@ -23,10 +23,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.5rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 1.2rem;
 }
 
 .header__socials::after {
@@ -40,14 +40,14 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 23rem;
+    height: 30rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ============ SCROLL DOWN ============ */
@@ -57,4 +57,23 @@ header {
     bottom: 3rem;
     transform: rotate(90deg);
     font-size: 0.9rem;
+}
+
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 68vh;
+    }
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
+@media screen and (max-width: 600px) {
+    .header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
 }
