@@ -1,10 +1,14 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 .portfolio__item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 1rem;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -13,29 +17,37 @@
 }
 
 .portfolio__item:hover {
-    border-color: var(--color-bg-variant);
+    border-color: var(--color-primary);
     background: transparent;
 }
 
 .portfolio__item-image {
+    grid-column: 1 / 2;
     border-radius: 0.5rem;
     overflow: hidden;
+    max-width: 250px;
 }
 
-.portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
-    color: var(--color-light);
+.portfolio__item-content {
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .portfolio__item-cta {
+    grid-column: 3 / 4;
     display: flex;
+    flex-direction: column;
     gap: 1rem;
-    margin-bottom: 1rem;
-} 
+    justify-content: center;
+}
 
 .skills {
+    display: flex;
+    gap: 0.5rem;
     color: var(--color-light);
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .portfolio__item p {
@@ -45,16 +57,29 @@
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+    .portfolio__item {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio__item-image {
+        grid-column: 1 / -1; 
+        justify-self: center;
+    }
+
+    .portfolio__item-content {
+        grid-column: 1 / -1;
+    }
+
+    .portfolio__item-cta {
+        grid-column: 1 / -1; 
+        flex-direction: row; 
+        justify-content: flex-start;
     }
 }
 
 /* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
 @media screen and (max-width: 600px) {
-    .portfolio__container {
+    .portfolio__item {
         grid-template-columns: 1fr;
-        gap: 1rem;
     }
 }
