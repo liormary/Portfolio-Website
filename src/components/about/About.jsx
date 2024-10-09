@@ -4,6 +4,7 @@ import ME from '../../assets/me-about.png'
 import { GrTechnology } from "react-icons/gr";
 import { FiUsers } from "react-icons/fi";
 import { HiOutlinePaintBrush } from "react-icons/hi2";
+import CTA from './CTA.jsx'
 
 const About = () => {
   return (
@@ -43,7 +44,7 @@ const About = () => {
             I am a passionate Full Stack/Front-End Developer dedicated to creating intuitive web applications that enhance user experiences. With a solid foundation in web technologies and a collaborative mindset, I thrive in dynamic environments where I can tackle challenges and deliver innovative solutions. I’m currently seeking my next opportunity to contribute my skills and creativity to impactful projects while continuing to grow in the tech industry.
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <CTA />
         </div>
       </div>
     </section>

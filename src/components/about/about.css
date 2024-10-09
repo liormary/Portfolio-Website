@@ -65,8 +65,16 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    margin: 1rem 0 1rem;
     color: var(--color-light);
+    font-size: 0.9rem;
+}
+
+/* ============ CTA ============ */
+.cta {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */

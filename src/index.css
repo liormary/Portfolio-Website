@@ -85,7 +85,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-black);
+    color: var(--color-primary-variant);
 }
 
 .btn {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-black);
+    background: var(--color-primary-variant);
     color: var(--color-bg);
     border-color: transparent;
 }

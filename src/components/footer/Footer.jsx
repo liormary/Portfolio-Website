@@ -2,12 +2,14 @@ import React from 'react'
 import './footer.css'
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import FAVICON from '../../assets/favicon.png'
+
 
 
 const Footer = () => {
   return (
     <footer className='footer'>
-      <a href="" className='footer__logo'>AAAA</a>
+      <img src={FAVICON} className='footer__logo' />
 
       <ul className='permalinks'>
         <li><a href="#home">Home</a></li>

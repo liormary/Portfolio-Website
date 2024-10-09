@@ -55,6 +55,10 @@
     margin-bottom: 0.5rem;
 }
 
+.btn {
+    background: var(--color-bg);
+}
+
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (max-width: 1024px) {
     .portfolio__item {
