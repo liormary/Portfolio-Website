@@ -1,5 +1,5 @@
 .container.recommendations__container {
-    width: 40%;
+    width: 60%;
     padding-bottom: 4rem;
 }
 
@@ -13,11 +13,16 @@
 }
 
 .recommendation {
-  background: var(--color-bg-variant);  
-  text-align: center;
-  padding: 2rem;
-  border-radius: 2rem;
-  user-select: none;
+    background: var(--color-bg-variant);  
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    min-height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
 }
 
 .client__review {
@@ -25,22 +30,27 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+    flex-grow: 1; 
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+   color: var(--color-primary); 
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
 @media screen and (max-width: 1024px) {
     .container.recommendations__container {
-        width: 60%;
+        width: 80%;
     }
-}
 
-.swiper-button-next,
-.swiper-button-prev {
-   color: var(--color-primary); 
-}
-    
-.swiper-pagination-bullet-clickable .swiper-pagination-bullet-active {
-    background-color: var(--color-primary);
+    .recommendation {
+        min-height: 550px;
+    }
 }
 
 /* ============ MEDIA QUERIES (SMALL DEVICES) ============ */
