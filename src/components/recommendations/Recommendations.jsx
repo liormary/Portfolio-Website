@@ -27,7 +27,7 @@ const Recommendations = () => {
 
         <SwiperSlide className='recommendation'>
           <div className="client__avatar">
-            <img src={TOMER} alt='Profile photo of Tomer Grossman' />
+            <img src={TOMER} alt='Tomer Grossman' />
           </div>
           <h5 className='client__name'>Tomer Grossman</h5>
           <small className='client__review'>As Lior's former manager I had the privilege of working with Lior on several projects, and her impact on our team was remarkable. Lior is an outstanding team player who consistently fosters collaboration and open communication. She has a natural ability to work seamlessly with others, always contributing her insights and supporting her teammates. She brought fresh ideas, solved complex problems, and helped drive every project she was part of toward success. 
@@ -39,7 +39,7 @@ I have no doubt that she will continue to excel in any future endeavors, and I h
 
         <SwiperSlide className='recommendation'>
           <div className="client__avatar">
-            <img src={RECOMEND} alt='Profile photo for recommendation' />
+            <img src={RECOMEND} alt='recommendation' />
           </div>
           <h5 className='client__name'>Would you like to recommend me?</h5>
           <small className='client__review'>Feel free to contact me to write a recommendation</small>
