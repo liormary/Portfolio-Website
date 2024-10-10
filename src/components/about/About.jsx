@@ -5,21 +5,27 @@ import { GrTechnology } from "react-icons/gr";
 import { FiUsers } from "react-icons/fi";
 import { HiOutlinePaintBrush } from "react-icons/hi2";
 import CTA from './CTA.jsx'
+import { MdOutlineArrowForwardIos } from "react-icons/md";
+import HeaderSocials from './HeaderSocials.jsx'
+
 
 const About = () => {
   return (
-    <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+    <header id='#'>
+      <div className="container header__container">
+        <h5>Get To Know</h5>
+        <h2>Hi, I'm Lior Mary</h2>
+        <h5 className="text-light">FullStack/FrontEnd Developer</h5>
+        <HeaderSocials />
+        <a href='#contact' className="scroll__down">Scroll Down <MdOutlineArrowForwardIos className='arrow' /></a>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+        <div className="container about__container">
+          <div className="about__me">
+            <div className="about__me-image">
+              <img src={ME} alt="About Image" />
+            </div>
           </div>
-        </div>
 
-        <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
               <GrTechnology className='about__icon' />
@@ -39,15 +45,15 @@ const About = () => {
               <small>Thriving in collaborative environments</small>
             </article>
           </div>
-
+        </div>
+        <div className="about__content">  
           <p>
             I am a passionate Full Stack/Front-End Developer dedicated to creating intuitive web applications that enhance user experiences. With a solid foundation in web technologies and a collaborative mindset, I thrive in dynamic environments where I can tackle challenges and deliver innovative solutions. I’m currently seeking my next opportunity to contribute my skills and creativity to impactful projects while continuing to grow in the tech industry.
           </p>
-
           <CTA />
         </div>
       </div>
-    </section>
+    </header>
   )
 }
 
