@@ -39,8 +39,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/liormary/InstaPets" className='btn' target='_blank'>GitHub</a>
-            <a href="https://drive.google.com/file/d/1_IIYTpklbBJuKtWJTIgjEDDJ-SzdnMzM/view?usp=drive_link" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/liormary/InstaPets" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://drive.google.com/file/d/1_IIYTpklbBJuKtWJTIgjEDDJ-SzdnMzM/view?usp=drive_link" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -61,8 +61,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/liormary/queenb-summer-project-24-team5" className='btn' target='_blank'>GitHub</a>
-            <a href="https://drive.google.com/file/d/1DikJOoqqU-xdqjU99bZ-wH8qm2VbqJr_/view?usp=drive_link" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/liormary/queenb-summer-project-24-team5" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://drive.google.com/file/d/1DikJOoqqU-xdqjU99bZ-wH8qm2VbqJr_/view?usp=drive_link" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -82,8 +82,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/liormary/Budget-Website" className='btn' target='_blank'>GitHub</a>
-            <a href="https://drive.google.com/file/d/10TdmsBjkcqRVEuZt1aWqsl6XWwsbeeOz/view?usp=sharing" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/liormary/Budget-Website" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://drive.google.com/file/d/10TdmsBjkcqRVEuZt1aWqsl6XWwsbeeOz/view?usp=sharing" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -102,8 +102,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/liormary/TravelTip-Website" className='btn' target='_blank'>GitHub</a>
-            <a href="https://drive.google.com/file/d/1bwGjTXBw0TVc9REbGGO6stW7kBfXdjzc/view?usp=drive_link" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/liormary/TravelTip-Website" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://drive.google.com/file/d/1bwGjTXBw0TVc9REbGGO6stW7kBfXdjzc/view?usp=drive_link" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
 
@@ -121,8 +121,8 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/liormary/Health-Analysis-Website" className='btn' target='_blank'>GitHub</a>
-            <a href="https://drive.google.com/file/d/1CTMfoav3W7BxJa6TBN-m0exfoyMNrL1L/view?usp=drive_link" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/liormary/Health-Analysis-Website" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+            <a href="https://drive.google.com/file/d/1CTMfoav3W7BxJa6TBN-m0exfoyMNrL1L/view?usp=drive_link" className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
           </div>
         </article>
       </div>

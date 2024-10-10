@@ -9,7 +9,7 @@ import FAVICON from '../../assets/favicon.png'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <img src={FAVICON} className='footer__logo' />
+      <img src={FAVICON} className='footer__logo' alt='icon'/>
 
       <ul className='permalinks'>
         <li><a href="#home">Home</a></li>
@@ -22,8 +22,8 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-      <a href='https://www.linkedin.com/in/lior-mary/' target='_blank'><BsLinkedin /></a>
-      <a href='https://github.com/liormary' target='_blank'><BsGithub /></a>
+      <a href='https://www.linkedin.com/in/lior-mary/' target='_blank' rel="noreferrer"><BsLinkedin /></a>
+      <a href='https://github.com/liormary' target='_blank' rel="noreferrer"><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">
