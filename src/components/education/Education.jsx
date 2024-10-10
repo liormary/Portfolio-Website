@@ -2,7 +2,7 @@ import React from 'react'
 import './education.css'
 import IBM from '../../assets/ibm-logo.png'
 import UNI from '../../assets/university-logo.png'
-import GRADES from '../../assets/grades.pdf'
+import GRADES from '../../assets/degree.pdf'
 import { BiCheck } from "react-icons/bi";
 
 
