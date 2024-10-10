@@ -11,7 +11,7 @@ import HeaderSocials from './HeaderSocials.jsx'
 
 const About = () => {
   return (
-    <header id='#'>
+    <header id='home'>
       <div className="container header__container">
         <h5>Get To Know</h5>
         <h2>Hi, I'm Lior Mary</h2>
@@ -22,7 +22,7 @@ const About = () => {
         <div className="container about__container">
           <div className="about__me">
             <div className="about__me-image">
-              <img src={ME} alt="About Image" />
+              <img src={ME} alt="Lior Mary Profile Picture" />
             </div>
           </div>
 
