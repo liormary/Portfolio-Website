@@ -43,7 +43,8 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone [https://github.com/liormary/Portfolio-Website.git]
 
-	2.	Navigate to the project directory:
+	
+ 2.	Navigate to the project directory:
 
 cd your-repo-name
 
