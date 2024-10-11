@@ -15,7 +15,7 @@
 .recommendation {
     background: var(--color-bg-variant);  
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 2rem;
     user-select: none;
     min-height: 450px; 
@@ -51,7 +51,7 @@
     }
 
     .recommendation {
-        min-height: 400px;
+        min-height: 500px;
     }
 }
 
@@ -66,6 +66,6 @@
     }
 
     .recommendation {
-        min-height: 800px;
+        min-height: 1000px;
     }
 }
