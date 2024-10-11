@@ -18,8 +18,8 @@ Check out the live demo of my portfolio at: [liormary.netlify.app](https://liorm
 
 ## Features
 
-- **Home Section**: An introduction to my skills and background.
-- **Experience Section**: Overview of my professional experience and skills.
+- **Home Section**: A personal introduction where I share my background and passion for technology as a Full Stack/Front-End Developer.
+- **Experience Section**: Overview of my skills.
 - **Education Section**: Details about my academic background and certifications.
 - **Projects Showcase**: Highlights of my recent projects with descriptions and links.
 - **Recommendations**: Testimonials from colleagues and supervisors.
