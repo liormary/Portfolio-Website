@@ -51,11 +51,11 @@ cd your-repo-name
 
 3.	Install the necessary packages:
 
-[npm install]
+npm install
 
 
 
-Usage
+### Usage
 
 To run the project locally, use:
 
@@ -63,10 +63,10 @@ npm start
 
 This will start the development server, and you can view the project in your browser at http://localhost:3000.
 
-Contributing
+### Contributing
 
 Contributions are welcome! If you have suggestions for improvements or would like to report a bug, please open an issue or submit a pull request.
 
-License
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
