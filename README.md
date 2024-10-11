@@ -43,17 +43,13 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/liormary/Portfolio-Website.git
 
-	
- 2.	Navigate to the project directory:
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
 
-cd your-repo-name
-
-
-3.	Install the necessary packages:
-
-npm install
-
-
+3. Install the necessary packages:
+   ```bash
+   npm install
 
 ### Usage
 
