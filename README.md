@@ -55,9 +55,7 @@ To get a local copy up and running, follow these steps:
 
 To run the project locally, use:
 
-```bash
 npm start
-
 
 This will start the development server, and you can view the project in your browser at http://localhost:3000.
 
