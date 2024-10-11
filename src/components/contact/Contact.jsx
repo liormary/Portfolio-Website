@@ -5,6 +5,7 @@ import { PiMessengerLogoBold } from "react-icons/pi";
 import { PiWhatsappLogoBold } from "react-icons/pi";
 import emailjs from "emailjs-com";
 import { FaCheck } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 const Contact = () => {
@@ -39,19 +40,19 @@ const Contact = () => {
           <article className='contact__option'>
             <MdOutlineMailOutline className='contact__option-icon' />
             <h4>Email</h4>
-            <a href='mailto:liorms3@gmail.com' target='_blank' rel="noreferrer">Send a message</a>
-          </article>
-
-          <article className='contact__option'>
-            <PiMessengerLogoBold className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <a href='https://m.me/lior.mary' target='_blank' rel="noreferrer">Send a message</a>
+            <a href='mailto:liorms3@gmail.com' target='_blank' rel="noreferrer">Send a message<IoIosArrowForward className='arrow'/></a>
           </article>
 
           <article className='contact__option'>
             <PiWhatsappLogoBold className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <a href='https://wa.me/972544886783' target='_blank' rel="noreferrer">Send a message</a>
+            <a href='https://wa.me/972544886783' target='_blank' rel="noreferrer">Send a message<IoIosArrowForward className='arrow'/></a>
+          </article>
+
+          <article className='contact__option'>
+            <PiMessengerLogoBold className='contact__option-icon'/>
+            <h4>Messenger</h4>
+            <a href='https://m.me/lior.mary' target='_blank' rel="noreferrer">Send a message<IoIosArrowForward className='arrow'/></a>
           </article>
         </div>
 

@@ -11,6 +11,8 @@
     height: fit-content;
     transition: var(--transition);
     padding-bottom: 2rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+
 }
 
 .education:hover {
@@ -23,7 +25,7 @@
     background: var(--color-primary);
     padding: 2rem;
     border-radius: 2rem;
-    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .education__head h3 {

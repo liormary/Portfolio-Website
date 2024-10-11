@@ -61,6 +61,7 @@ header {
     padding: 1rem;
     text-align: center;
     transition: var(--transition);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .about__card:hover {
