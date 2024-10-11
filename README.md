@@ -49,9 +49,9 @@ To get a local copy up and running, follow these steps:
 cd your-repo-name
 
 
-	3.	Install the necessary packages:
+3.	Install the necessary packages:
 
-npm install
+[npm install]
 
 
 
