@@ -23,15 +23,15 @@ const Education = () => {
           <ul className="education__list">
           <li>
               <BiCheck className="education__list-icon"/>
-              <p>Earned a B.Sc. in Computer Science with a GPA of 85, demonstrating strong academic performance.</p>
+              <p>Earned a B.Sc. in Computer Science with a <div className="bold">GPA of 85</div>, demonstrating strong academic performance.</p>
             </li>
             <li>
               <BiCheck className="education__list-icon"/>
-              <p>Completed the degree in just 3 years, showcasing dedication and efficient learning.</p>
+              <p>Completed the degree in <div className="bold">just 3 years</div>, showcasing dedication and efficient learning.</p>
             </li>
             <li>
               <BiCheck className="education__list-icon"/>
-              <p>Received the Dean's Award for Excellence in 2023, recognizing outstanding achievement and commitment to academic excellence.</p>
+              <p>Received the <div className="bold">Dean's Award for Excellence in 2023</div>, recognizing outstanding achievement and commitment to academic excellence.</p>
             </li>
           </ul>
 

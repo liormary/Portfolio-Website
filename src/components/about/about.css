@@ -155,6 +155,7 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    padding-top: 1rem;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============ */
