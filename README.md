@@ -45,12 +45,12 @@ To get a local copy up and running, follow these steps:
 
 	
  2.	Navigate to the project directory:
- ```bash
+
 cd your-repo-name
 
 
 3.	Install the necessary packages:
- ```bash
+
 npm install
 
 
