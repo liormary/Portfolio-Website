@@ -13,7 +13,7 @@ const About = () => {
   return (
     <header id='home'>
       <div className="container header__container">
-        <h5>Get To Know</h5>
+        <h5>About Me</h5>
         <h2>Hi, I'm Lior Mary</h2>
         <h5 className="text-light">FullStack/FrontEnd Developer</h5>
         <HeaderSocials />

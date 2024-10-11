@@ -51,7 +51,13 @@ function Experience() {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Adobe Photoshop</h4>
+                <h4>SwiperJs</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>EmailJs</h4>
               </div>
             </article>
           </div>
@@ -96,6 +102,12 @@ function Experience() {
                 <h4>C</h4>
               </div>
             </article>
+          </div>
+        </div>
+
+        <div className="experience__database">
+          <h3>Databases</h3>
+          <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
@@ -106,6 +118,18 @@ function Experience() {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Firebase</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>PostgreSQL</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>MySQL</h4>
               </div>
             </article>
           </div>
@@ -141,13 +165,19 @@ function Experience() {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Data Structures</h4>
+                <h4>Postman</h4>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Algorithms</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Data Structures</h4>
               </div>
             </article>
           </div>

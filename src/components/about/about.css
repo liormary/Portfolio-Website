@@ -20,7 +20,7 @@ header {
 .about__container {
     display: grid;
     grid-template-columns: 30% 65%;
-    gap: 15%;
+    gap: 10%;
 }
 
 .about__me {
@@ -92,10 +92,12 @@ header {
     margin: 1rem 0 1rem;
     color: var(--color-light);
     font-size: 0.9rem;
+    text-align: left; 
+    width: 100%;
 }
 
 .text-light {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* ============ HEADER SOCIALS ============ */
@@ -171,7 +173,7 @@ header {
     }
 
     .about__content p {
-        margin: 1rem 0 1.5rem;
+        margin: 0.5rem 0 0.5rem;
     }
 }
 
@@ -188,7 +190,7 @@ header {
 
     .about__me {
         width: 65%;
-        margin: 0rem auto 3rem;
+        margin: 0rem auto 2rem;
     }
 
     .about__cards {
@@ -197,10 +199,11 @@ header {
     }
 
     .about__content {
-        text-align: center;
+        padding: 1.5rem 2rem 1.5rem 2rem;  
     }
 
     .about__content p {
-        margin: 1.5rem 0;
+        margin: 0.5rem 0;
     }
+
 }
